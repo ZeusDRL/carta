@@ -1,0 +1,56 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+/* Estilo da carta */
+.carta {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: inline-block;
+}
+
+/* Ocultar a carta inicialmente */
+.escondida {
+    display: none;
+}
+
+h2 {
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    line-height: 1.5;
+}
