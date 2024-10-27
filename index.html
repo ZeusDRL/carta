@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Aniversário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aperte o botão para abrir esta carta</h1>
+        <button onclick="mostrarCarta()">Abra</button>
+
+        <!-- A carta que será exibida -->
+        <div id="carta" class="carta escondida">
+            <h2>Oioi mi family,</h2>
+            <p>Como voces estão?</p>
+            <p>Amo vocês de maiss, estou testando este código que não tem nada a ver com eletrônica</p>
+            <p>e é isso, ass:Diego</p>
+        </div>
+    </div>
+
+    <script>
+        function mostrarCarta() {
+            var carta = document.getElementById("carta");
+            carta.classList.toggle("escondida");
+        }
+    </script>
+</body>
+</html>
